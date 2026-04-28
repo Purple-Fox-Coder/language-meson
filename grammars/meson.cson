@@ -1,0 +1,15 @@
+# https://docs.pulsar-edit.dev/developing-for-pulsar/creating-a-grammar-modern-tree-sitter/#the-package
+
+name: 'Meson'
+scopeName: 'source.meson'
+type: 'modern-tree-sitter'
+parser: 'tree-sitter-meson'
+fileTypes: [ 'meson.build', 'meson_options.txt' ]
+treeSitter:
+    grammar: 'tree-sitter/grammar.wasm'
+    highlightsQuery: 'tree-sitter/highlights.scm'
+    foldsQuery: 'tree-sitter/folds.scm'
+    indentsQuery: 'tree-sitter/indents.scm'
+comments:
+    start: '# '
+    line: '#'

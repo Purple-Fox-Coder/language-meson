@@ -1,0 +1,23 @@
+# If you want some examples of settings, check out:
+# https://github.com/atom/language-gfm/blob/master/settings/gfm.cson
+
+'.source.meson':
+  'editor':
+    'commentStart': '# '
+    'commentDelimiters':
+      'line': '#'
+
+    # 'increaseIndentPattern': '(?x)
+    #   ^ .* : \\s* $
+    #   |^ .* \\[ .* $
+    #   |^ .* \\( .* $
+    # '
+    #
+    # 'decreaseIndentPattern': '(?x)
+    #   ^ \\s* end(if|foreach) \\b
+    #   |^ \\s* \\]
+    #   |^ \\s* \\)
+    # '
+
+    'tabLength': 4
+    'softTabs': true

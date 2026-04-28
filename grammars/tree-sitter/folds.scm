@@ -1,0 +1,3 @@
+[
+  (selection_statement)
+] @fold
